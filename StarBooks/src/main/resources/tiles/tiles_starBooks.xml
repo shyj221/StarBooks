@@ -10,7 +10,7 @@
 	</definition>
 	
 	<definition name="common/*" extends="baseLayout">
-		<put-attribute name="side" value="/WEB-INF/view/common/side.jsp"/>
+<!-- 		<put-attribute name="side" value="/WEB-INF/view/common/side.jsp"/> -->
 		<put-attribute name="body" value="/WEB-INF/view/common/{1}.jsp" />
 	</definition>
 	
