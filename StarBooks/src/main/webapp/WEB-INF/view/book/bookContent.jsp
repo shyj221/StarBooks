@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<a href="main1.do">유정이</a>
+도서관페이지
 </body>
 </html>

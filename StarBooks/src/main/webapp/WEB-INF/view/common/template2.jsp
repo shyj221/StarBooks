@@ -48,22 +48,18 @@ $.validator.addMethod('regx', function(value, element, regexpr){
 </script>
 </head>
 <body>
+<div style="width: 100%">
 <div class="container-fluid">
-	<div class="row" style="margin: 0px 0px 0px 0px;">
-		<div class="col-md-12" style="background-color: orange;">
-			<tiles:insertAttribute name="menu" />
+	<div class="col-md-12" style="background-color: orange;">
+		<tiles:insertAttribute name="menu" />
+	</div>
+	<div class="myContainer">
+		<div class="col-md-12">
+			<tiles:insertAttribute name="body" />
 		</div>
 	</div>
-	<div class="row" style="margin: 0px 0px 0px 0px;">
-			<div class="col-md-6" style="padding: 0px; background-color: lime; width: 100%"> 
-				<tiles:insertAttribute name="body" />
-			</div>
-			<div class="col-md-6" style="padding: 0px; background-color: red;width: 100%"> 
-				<tiles:insertAttribute name="body1" />
-			</div>
-		</div>
 </div>
-
+</div>
 
 
 
