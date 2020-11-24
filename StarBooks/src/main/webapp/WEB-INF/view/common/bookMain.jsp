@@ -7,8 +7,25 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<style type="text/css">
+@font-face {
+    font-family: 'MaplestoryOTFBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+a:hover{
+	text-decoration: none;
+}
+</style>
 </head>
 <body>
-<a href="bookContent.do">도서관 메인</a>
+<div style="height: 969px;" align="center">
+	<div style="height: 300px;"></div>
+	<span style="color: white; font-weight: white; font-size: 10em; font-family: 'MaplestoryOTFBold';">
+		<img alt="" src="resources/images/books.png" style="width: 150px;">
+		<a href="bookContent.do" style="color: white;">Book</a>
+	</span>
+</div>
 </body>
 </html>

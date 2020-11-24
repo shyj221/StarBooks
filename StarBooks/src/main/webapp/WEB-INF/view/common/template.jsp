@@ -53,20 +53,14 @@ $.validator.addMethod('regx', function(value, element, regexpr){
 		</div>
 	</div>
 	<div class="row" style="margin: 0px 0px 0px 0px;">
-			<div class="col-md-6" style="padding: 0px; background-color: lime; width: 100%; height: 100%;"> 
-				<tiles:insertAttribute name="body" />
-			</div>
-			<div class="col-md-6" style="padding: 0px; background-color: red;width: 100%; height: 100%;"> 
-				<tiles:insertAttribute name="body1" />
-			</div>
+		<div class="col-md-6" style="padding: 0px; background-color: pink; width: 100%; height: 100%;"> 
+			<tiles:insertAttribute name="body" />
 		</div>
+		<div class="col-md-6" style="padding: 0px; background-color: skyblue; width: 100%; height: 100%;"> 
+			<tiles:insertAttribute name="body1" />
+		</div>
+	</div>
 </div>
-
-
-
-
-
-
 </body>
 </html>
 
