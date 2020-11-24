@@ -34,10 +34,8 @@ label.error{
 	font-size: 12px;
 	display: block;		
 }
-.container{
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
+.container-fluid{
+	padding: 0 0 0 0;
 }
 </style>
 <script type="text/javascript">
@@ -48,7 +46,6 @@ $.validator.addMethod('regx', function(value, element, regexpr){
 </script>
 </head>
 <body>
-<div style="width: 100%">
 <div class="container-fluid">
 	<div class="col-md-12" style="background-color: orange;">
 		<tiles:insertAttribute name="menu" />
@@ -59,12 +56,6 @@ $.validator.addMethod('regx', function(value, element, regexpr){
 		</div>
 	</div>
 </div>
-</div>
-
-
-
-
-
 </body>
 </html>
 

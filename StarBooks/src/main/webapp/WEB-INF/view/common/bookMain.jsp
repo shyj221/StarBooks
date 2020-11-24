@@ -10,6 +10,5 @@
 </head>
 <body>
 <a href="bookContent.do">도서관 메인</a>
- 
 </body>
 </html>
