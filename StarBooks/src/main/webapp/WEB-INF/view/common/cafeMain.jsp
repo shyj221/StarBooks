@@ -8,14 +8,14 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <style type="text/css">
+a:hover{
+	text-decoration: none;
+}
 @font-face {
     font-family: 'MaplestoryOTFBold';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
-a:hover{
-	text-decoration: none;
 }
 </style>
 </head>

@@ -10,6 +10,7 @@
 <link rel="shortcut icon" href="resources/images/starBooks.ico" type="image/x-icon">
 <!-- 초기화 CSS -->
 <link rel="stylesheet" type="text/css" href="resources/css/reset.css?ver=2"/>
+<link rel="stylesheet" type="text/css" href="resources/css/font.css?ver=2"/>
 
 <!-- 최신 부트스트랩CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -27,7 +28,6 @@
 <!-- 유효성 검사 자바스크립트 -->
 <script src="resources/js/jquery.validate.js?ver=2"></script>
 <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
-<style type="text/css">
 <style type="text/css">
 label.error{
 	color: red;
