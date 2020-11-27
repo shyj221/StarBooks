@@ -33,6 +33,11 @@ span:hover{
    opacity: 0.7;
 }
 
+.upperDiv a{
+	text-decoration: none;
+	color: black;
+}
+
 .lowerDiv{
    background: white;
    padding: 5px;
@@ -68,13 +73,19 @@ input{
 <body>
 <c:if test="${menuVO.menuKind eq 'bookMenu' }">
 <div>
-      <div class="upperDiv" align="center">
-         <div style="width: 35%; display: inline-block;" align="left">
-            <a href="bookContent.do" class="brand" style="font-weight: bold; text-decoration: none; font-family: 'GmarketSansBold';">BookMenu</a>
-         </div>
-         <div style="width: 35%; display: inline-block; font-family: 'GmarketSansLight';" align="right">
-            <span class="upperMenu">로그인 | <a href="mainPage=joinForm.jsp" style="text-decoration: none;">회원가입</a> | 이 책이 조아여♥ | 대출목록 | 예약확인</span>
-         </div>
+	<div class="upperDiv" align="center">
+		<div style="width: 35%; display: inline-block;" align="left">
+			<a href="bookContent.do" class="brand" style="font-weight: bold; text-decoration: none; font-family: 'GmarketSansBold';">BookMenu</a>
+		</div>
+		<div style="width: 35%; display: inline-block; font-family: 'GmarketSansLight';" align="right">
+			<span class="upperMenu">
+				<a href="#">로그인</a> | 
+				<a href="#">회원가입</a> | 
+				<a href="#">이 책이 조아여♥</a> | 
+				<a href="#">대출목록</a> | 
+				<a href="#">예약확인</a>
+			</span>
+		</div>
 <!--          <div style="width: 35%; display: inline-block;" align="right"> -->
 <!--             <div class="lowerDiv" align="center"> -->
 <!--          <ul class="menuList"> -->
@@ -104,13 +115,18 @@ input{
 </c:if>
 <c:if test="${menuVO.menuKind eq 'cafeMenu' }">
 <div>
-      <div class="upperDiv" align="center">
-         <div style="width: 35%; display: inline-block;" align="left">
-            <a href="cafeContent.do" class="brand" style="font-weight: bold; text-decoration: none; font-family: 'GmarketSansBold';">CafeMenu</a>
-         </div>
-         <div style="width: 35%; display: inline-block;" align="right">
-            <span class="upperMenu">로그인 | <a href="mainPage=joinForm.jsp" style="text-decoration: none;">회원가입</a> | 이 메뉴가 조아여♥| 주문조회</span>
-         </div>
+	<div class="upperDiv" align="center">
+		<div style="width: 35%; display: inline-block;" align="left">
+			<a href="cafeContent.do" class="brand" style="font-weight: bold; text-decoration: none; font-family: 'GmarketSansBold';">CafeMenu</a>
+		</div>
+		<div style="width: 35%; display: inline-block; font-family: 'GmarketSansLight';" align="right">
+			<span class="upperMenu">
+				<a href="#">로그인</a> | 
+				<a href="#">회원가입</a> | 
+				<a href="#">이 메뉴가 조아여♥</a> | 
+				<a href="#">주문조회</a>
+			</span>
+		</div>
 <!--          <div style="width: 35%; display: inline-block;" align="right"> -->
 <!--             <div class="lowerDiv" align="center"> -->
 <!--          <ul class="menuList"> -->
