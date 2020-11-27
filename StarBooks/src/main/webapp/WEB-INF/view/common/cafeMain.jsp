@@ -23,7 +23,7 @@ a:hover{
 <div style="height: 969px;" align="center">
 	<div style="height: 300px;"></div>
 	<span style="color: white; font-weight: white; font-size: 10em; font-family: 'MaplestoryOTFBold';">
-		<a href="cafeContent.do" style="color: white;">Cafe</a>
+		<a href="cafeContent.do?menuKind=cafeMenu" style="color: white;">Cafe</a>
 		<img alt="" src="resources/images/coffee.png" style="width: 100px;">
 	</span>
 </div>

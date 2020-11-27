@@ -24,7 +24,7 @@ a:hover{
 	<div style="height: 300px;"></div>
 	<span style="color: white; font-weight: white; font-size: 10em; font-family: 'MaplestoryOTFBold';">
 		<img alt="" src="resources/images/books.png" style="width: 150px;">
-		<a href="bookContent.do" style="color: white;">Book</a>
+		<a href="bookContent.do?menuKind=bookMenu" style="color: white;">Book</a>
 	</span>
 </div>
 </body>
