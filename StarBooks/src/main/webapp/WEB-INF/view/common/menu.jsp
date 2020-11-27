@@ -69,7 +69,8 @@ input{
 				<a href="#">회원가입</a> | 
 				<a href="#">이 책이 조아여♥</a> | 
 				<a href="#">대출목록</a> | 
-				<a href="#">예약확인</a>
+				<a href="#">예약확인</a> |
+				<a href="cafeContent.do">카페 페이지로 이동</a>
 			</span>
 		</div>
 <!--          <div style="width: 35%; display: inline-block;" align="right"> -->
@@ -110,7 +111,8 @@ input{
 				<a href="#">로그인</a> | 
 				<a href="#">회원가입</a> | 
 				<a href="#">이 메뉴가 조아여♥</a> | 
-				<a href="#">주문조회</a>
+				<a href="#">주문조회</a> |
+				<a href="bookContent.do">도서관 페이지로 이동</a>
 			</span>
 		</div>
 <!--          <div style="width: 35%; display: inline-block;" align="right"> -->
