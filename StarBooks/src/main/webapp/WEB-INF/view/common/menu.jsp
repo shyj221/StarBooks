@@ -56,54 +56,72 @@ input{
 }
 
 /* 드롭다운 */
-  html, body, p {
-                margin: 0px;
-                padding: 0px;
-            }
+  .db {
+   color: white;
+   font-size: 16px;
+   border: none;
+   cursor: pointer;
+   z-index: 6;
+   color: #0034a9;
+   width: 80px;
+   padding: 10px 30px 10px 30px;
+} 
 
-            .container {
-                width: 100%;
-                height: 100px;
-                background-color: aquamarine;
-            }
+.db:hover{
+   text-decoration: none;
+   color: #0034a9;
+}
 
-            ul, li {
-                list-style: none;
-                margin: 0px;
-                padding: 0px;
-                width: 100px;
-                height: 50px;
-                color: white;
-                text-align: center;
-                background-color: black;
-            }
+.dd {
+   position: relative;
+   display: inline-block;
+   z-index: 6; 
+} 
 
-            .drop_box li {
-                float: left;
-            }
+.dd-content {
+   display: none;
+   position: absolute;
+   background-color: white;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 6;
+   font-size: 14px;
+   top: 31px;
+   left: -20px; 
+}
 
-            .drop_box li:hover {
-                background-color: gray;
-                cursor: pointer;
-            }
+.dd-content a {
+   color: #0034a9;
+   padding: 10px 10px;
+   text-decoration: none;
+   display: block;
+   border-bottom: 1px solid #ddd;
+   z-index: 6; 
+} 
 
-            .drop_box li:hover ul {
-                display: block;
-            }
+.dd-content a:last-child {
+   border-bottom: none;
+   z-index: 6;
+   text-decoration: none;
+} 
 
-            .drop_box li p {
-                padding-top: 12px;
-            }
+.dd-content a:hover {
+   background-color: #eee;
+   z-index: 6;
+   text-decoration: none;
+   color: #0034a9; 
+} 
 
-            .drop_box {
-                width: 200px;
-                height: 50px;
-            }
+.dd:hover .dd-content {
+   display: block;
+   z-index: 6;
+} 
 
-            .sub_menu {
-                margin-top: 17px;
-                display: none;
-            }
+.dd:hover .db {
+   z-index: 6;
+   color: #ffcc00;
+}
+  
 
 
 </style>
@@ -117,7 +135,15 @@ input{
 		</div>
 		<div style="width: 35%; display: inline-block; font-family: 'GmarketSansLight';" align="right">
 				
-				
+				<div class="dd">
+			      <a href="centerIntroPage.do?introTab=centerIntro" class="db">센터안내</a>
+			      <div class="dd-content">
+			         <a href="centerIntroPage.do?introTab=centerIntro">센터소개</a>
+			         <a href="centerIntroPage.do?introTab=centerInfo">시설현황</a>
+			         <a href="centerIntroPage.do?introTab=centerLoc">위치안내</a>
+			      </div>
+			   </div>
+							
 				
 			<span class="upperMenu">
 				<a href="readingRoom.do">열람실 안내</a> | 
@@ -129,27 +155,37 @@ input{
 				<a href="admin.do?menuKind=bookMenu">관리자</a> 
 			</span>
 				<!-- 드롭다운 -->				
-				  <ul class="drop_box">
-		            <li><p>Menu</p>
-		                <ul class="sub_menu">
-		                    <li onclick="location.href='readingRoom.do">one</li>
-		                    <li><p>two</p></li>
-		                </ul>
-		            </li>
-		            <li><p>Port</p>
-		                <ul class="sub_menu">
-		                    <li><p>one</p></li>
-		                    <li><p>two</p></li>
-		                </ul>
-		            </li>
-		        </ul>
-		        
-		        <div class="dropdown-menu">
-  <a class="dropdown-item" href="#">Regular link</a>
-  <a class="dropdown-item active" href="#">Active link</a>
-  <a class="dropdown-item" href="#">Another link</a>
+				  
+		 <div>
+    <ul>
+        <li class="menu">
+            <a>하이</a>
+            <ul class="hide">
+                <li>메뉴1-1</li>
+                <li>메뉴1-2</li>
+                <li>메뉴1-3</li>
+                <li>메뉴1-4</li>
+                <li>메뉴1-5</li>
+                <li>메뉴1-6</li>
+            </ul>
+        </li>
+ 
+        <li class="menu">
+            <a>하이</a>
+            <ul class="hide">
+                <li>메뉴2-1</li>
+                <li>메뉴2-2</li>
+                <li>메뉴2-3</li>
+                <li>메뉴2-4</li>
+                <li>메뉴2-5</li>
+                <li>메뉴2-6</li>
+            </ul>
+        </li>
+    </ul>
 </div>
-		        
+
+
+출처: https://stove99.tistory.com/103 [스토브 훌로구]
 		        
 		</div>
 <!--          <div style="width: 35%; display: inline-block;" align="right"> -->
