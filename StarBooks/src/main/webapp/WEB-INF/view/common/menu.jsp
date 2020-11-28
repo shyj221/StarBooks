@@ -54,6 +54,58 @@ input{
    vertical-align: middle;
    text-decoration: none;
 }
+
+/* 드롭다운 */
+  html, body, p {
+                margin: 0px;
+                padding: 0px;
+            }
+
+            .container {
+                width: 100%;
+                height: 100px;
+                background-color: aquamarine;
+            }
+
+            ul, li {
+                list-style: none;
+                margin: 0px;
+                padding: 0px;
+                width: 100px;
+                height: 50px;
+                color: white;
+                text-align: center;
+                background-color: black;
+            }
+
+            .drop_box li {
+                float: left;
+            }
+
+            .drop_box li:hover {
+                background-color: gray;
+                cursor: pointer;
+            }
+
+            .drop_box li:hover ul {
+                display: block;
+            }
+
+            .drop_box li p {
+                padding-top: 12px;
+            }
+
+            .drop_box {
+                width: 200px;
+                height: 50px;
+            }
+
+            .sub_menu {
+                margin-top: 17px;
+                display: none;
+            }
+
+
 </style>
 </head>
 <body>
@@ -64,6 +116,9 @@ input{
 			<a href="bookContent.do" class="brand" style="font-weight: bold; text-decoration: none; font-family: 'GmarketSansBold';">BookMenu</a>
 		</div>
 		<div style="width: 35%; display: inline-block; font-family: 'GmarketSansLight';" align="right">
+				
+				
+				
 			<span class="upperMenu">
 				<a href="readingRoom.do">열람실 안내</a> | 
 				<a href="intro.do">열린 공간</a> | 
@@ -71,8 +126,31 @@ input{
 				<a href="loginInBook.do">로그인/회원가입</a> | 
 				<a href="myPage.do?menuKind=bookMenu">마이페이지</a>  |
 				<a href="cafeContent.do">카페 이동</a>  |
-				<a href="admin.do?menuKind=bookMenu">관리자</a>  
+				<a href="admin.do?menuKind=bookMenu">관리자</a> 
 			</span>
+				<!-- 드롭다운 -->				
+				  <ul class="drop_box">
+		            <li><p>Menu</p>
+		                <ul class="sub_menu">
+		                    <li onclick="location.href='readingRoom.do">one</li>
+		                    <li><p>two</p></li>
+		                </ul>
+		            </li>
+		            <li><p>Port</p>
+		                <ul class="sub_menu">
+		                    <li><p>one</p></li>
+		                    <li><p>two</p></li>
+		                </ul>
+		            </li>
+		        </ul>
+		        
+		        <div class="dropdown-menu">
+  <a class="dropdown-item" href="#">Regular link</a>
+  <a class="dropdown-item active" href="#">Active link</a>
+  <a class="dropdown-item" href="#">Another link</a>
+</div>
+		        
+		        
 		</div>
 <!--          <div style="width: 35%; display: inline-block;" align="right"> -->
 <!--             <div class="lowerDiv" align="center"> -->
