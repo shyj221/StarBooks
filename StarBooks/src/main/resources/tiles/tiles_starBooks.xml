@@ -12,7 +12,7 @@
 	</definition>
 
 	<!-- 클릭해서 들어갔을 때 메인 -->
-	<definition name="baseLayout1" template="/WEB-INF/view/common/template2.jsp">
+	<definition name="baseLayout1" template="/WEB-INF/view/common/menuTemplate.jsp">
 		<put-attribute name="title" value="StarBooks"/>
 		<put-attribute name="menu" value="/WEB-INF/view/common/menu.jsp"/>
 		<put-attribute name="side" value=""/>

@@ -11,13 +11,13 @@ public class CommonController {
 	@Resource(name = "commonService")
 	CommonService commonService;
 	
-	@RequestMapping(value = "/main.do")
-	public String sample() {
+	@RequestMapping(value = "/cafeMain.do")
+	public String cafeMain() {
 		return "common/cafeMain"; 
 	}
 	
-	@RequestMapping(value = "/sample.do")
-	public String sample1() {
+	@RequestMapping(value = "/bookMain.do")
+	public String bookMain() {
 		return "common/bookMain"; 
 	}
 	
