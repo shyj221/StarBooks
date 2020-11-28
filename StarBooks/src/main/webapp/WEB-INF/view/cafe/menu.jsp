@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-자료검색 페이지
+메뉴 페이지
 </body>
 </html>

@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-열린 공간
+장바구니
 </body>
 </html>
