@@ -69,9 +69,9 @@ input{
 				<a href="intro.do">열린 공간</a> | 
 				<a href="search.do">자료 검색</a> |
 				<a href="loginInBook.do">로그인/회원가입</a> | 
-				<a href="myPage.do">마이페이지</a>  |
+				<a href="myPage.do?menuKind=bookMenu">마이페이지</a>  |
 				<a href="cafeContent.do">카페 이동</a>  |
-				<a href="admin.do">관리자</a>  
+				<a href="admin.do?menuKind=bookMenu">관리자</a>  
 			</span>
 		</div>
 <!--          <div style="width: 35%; display: inline-block;" align="right"> -->
@@ -110,11 +110,11 @@ input{
 		<div style="width: 35%; display: inline-block; font-family: 'GmarketSansLight';" align="right">
 			<span class="upperMenu">
 				<a href="menu.do">메뉴</a> | 
-				<a href="myPage.do">마이페이지</a> | 
+				<a href="myPage.do?menuKind=cafeMenu">마이페이지</a> | 
 				<a href="wish.do">찜하기</a> |
 				<a href="loginInCafe.do">로그인/회원가입</a> | 
 				<a href="bookContent.do">도서관 이동</a> | 
-				<a href="admin.do">관리자</a>
+				<a href="admin.do?menuKind=cafeMenu">관리자</a>
 			</span>
 		</div>
 <!--          <div style="width: 35%; display: inline-block;" align="right"> -->

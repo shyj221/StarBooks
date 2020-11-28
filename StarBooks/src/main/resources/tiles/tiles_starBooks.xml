@@ -35,6 +35,10 @@
 		<put-attribute name="body" value="/WEB-INF/view/cafe/{1}.jsp" />
 	</definition>
 	
+	<definition name="manage/*" extends="baseLayout1">
+		<put-attribute name="body" value="/WEB-INF/view/manage/{1}.jsp" />
+	</definition>
+	
 	
 </tiles-definitions>
 

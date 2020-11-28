@@ -32,6 +32,19 @@ public class CommonController {
 		menuVO.setMenuKind("cafeMenu");
 		return "cafe/cafeContent"; 
 	}
+	// 마이페이지
+	@RequestMapping(value = "/myPage.do")
+	public String myPage(MenuVO menuVO) {
+		menuVO.setMenuKind(menuVO.getMenuKind());
+		return "manage/myPage"; 
+	}
+	
+	// 관리자
+		@RequestMapping(value = "/admin.do")
+		public String admin(MenuVO menuVO) {
+			menuVO.setMenuKind(menuVO.getMenuKind());
+			return "manage/admin"; 
+		}
 	
 }
 

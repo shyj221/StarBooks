@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-열린 공간
+관리자 페이지
 </body>
 </html>
