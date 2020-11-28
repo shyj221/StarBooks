@@ -65,12 +65,13 @@ input{
 		</div>
 		<div style="width: 35%; display: inline-block; font-family: 'GmarketSansLight';" align="right">
 			<span class="upperMenu">
-				<a href="#">로그인</a> | 
-				<a href="#">회원가입</a> | 
-				<a href="#">이 책이 조아여♥</a> | 
-				<a href="#">대출목록</a> | 
-				<a href="#">예약확인</a> |
-				<a href="cafeContent.do">카페 페이지로 이동</a>
+				<a href="readingRoom.do">열람실 안내</a> | 
+				<a href="intro.do">열린 공간</a> | 
+				<a href="search.do">자료 검색</a> |
+				<a href="loginInBook.do">로그인/회원가입</a> | 
+				<a href="myPage.do">마이페이지</a>  |
+				<a href="cafeContent.do">카페 이동</a>  |
+				<a href="admin.do">관리자</a>  
 			</span>
 		</div>
 <!--          <div style="width: 35%; display: inline-block;" align="right"> -->
@@ -108,11 +109,12 @@ input{
 		</div>
 		<div style="width: 35%; display: inline-block; font-family: 'GmarketSansLight';" align="right">
 			<span class="upperMenu">
-				<a href="#">로그인</a> | 
-				<a href="#">회원가입</a> | 
-				<a href="#">이 메뉴가 조아여♥</a> | 
-				<a href="#">주문조회</a> |
-				<a href="bookContent.do">도서관 페이지로 이동</a>
+				<a href="menu.do">메뉴</a> | 
+				<a href="myPage.do">마이페이지</a> | 
+				<a href="wish.do">찜하기</a> |
+				<a href="loginInCafe.do">로그인/회원가입</a> | 
+				<a href="bookContent.do">도서관 이동</a> | 
+				<a href="admin.do">관리자</a>
 			</span>
 		</div>
 <!--          <div style="width: 35%; display: inline-block;" align="right"> -->
