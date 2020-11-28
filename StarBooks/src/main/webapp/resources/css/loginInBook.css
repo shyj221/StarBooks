@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+input[type="text"]
+, input[type="password"] {
+	width: 300px;
+	height: 45px;
+	border-radius: 50px;
+	padding: 20px;
+	font-size: 16px;
+	font-family: 'GmarketSansLight';
+}
+
+input[type="submit"] {
+	width: 300px;
+	height: 45px;
+	border-radius: 50px;
+	background-color: #FF8CA0;
+	font-size: 16px;
+	color: white;
+	vertical-align: middle;
+	text-align: center;
+	font-family: 'GmarketSansLight';
+}
+
+input[type="button"]{
+	width: 300px;
+	height: 45px;
+	border-radius: 50px;
+	background-color: #FF778D;
+	font-size: 16px;
+	color: white;
+	vertical-align: middle;
+	text-align: center;
+	font-family: 'GmarketSansLight';
+}
+
+.searchDiv a{
+	font-family: 'GmarketSansLight';
+	font-size: 14px;
+	color: white;
+}
+
+.searchDiv a:hover{
+	text-decoration: underline;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+       
