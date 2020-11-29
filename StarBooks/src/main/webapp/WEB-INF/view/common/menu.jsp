@@ -6,10 +6,12 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link type="text/css" rel="stylesheet" href="style.css"/>
+
 <style type="text/css">
 body {
    margin: 0;
-   padding: 0;
+   padding: 0 0 0 0;
 }
 
 a{
@@ -56,75 +58,45 @@ input{
 }
 
 /* 드롭다운 */
-  .db {
-   color: white;
-   font-size: 16px;
-   border: none;
-   cursor: pointer;
-   z-index: 6;
-   color: #0034a9;
-   width: 80px;
-   padding: 10px 30px 10px 30px;
-} 
-
-.db:hover{
-   text-decoration: none;
-   color: #0034a9;
+#drop ul li a{
+	text-decoration: none;
+	display: block;
+}	
+#drop ul ul{
+	display:none;
+	z-index: 999;
+	position: absolute; 
+	
 }
+#drop li li{
+	width:100px;
 
-.dd {
-   position: relative;
-   display: inline-block;
-   z-index: 6; 
-} 
-
-.dd-content {
-   display: none;
-   position: absolute;
-   background-color: white;
-   min-width: 160px;
-   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-   z-index: 6;
-   font-size: 14px;
-   top: 31px;
-   left: -20px; 
+	position: relative; 
+	
+	
 }
-
-.dd-content a {
-   color: #0034a9;
-   padding: 10px 10px;
-   text-decoration: none;
-   display: block;
-   border-bottom: 1px solid #ddd;
-   z-index: 6; 
-} 
-
-.dd-content a:last-child {
-   border-bottom: none;
-   z-index: 6;
-   text-decoration: none;
-} 
-
-.dd-content a:hover {
-   background-color: #eee;
-   z-index: 6;
-   text-decoration: none;
-   color: #0034a9; 
-} 
-
-.dd:hover .dd-content {
-   display: block;
-   z-index: 6;
-} 
-
-.dd:hover .db {
-   z-index: 6;
-   color: #ffcc00;
+#drop ul li:hover ul{
+	display:block;
+	
 }
-  
-
-
+}
 </style>
+<script type="text/javascript">
+
+// html dom 이 다 로딩된 후 실행된다.
+$(document).ready(function(){
+    // memu 클래스 바로 하위에 있는 a 태그를 클릭했을 때
+    $(".menu>a").click(function(){
+        // 현재 클릭한 태그가 a 이기 때문에
+        // a 옆의 태그중 ul 태그에 hide 클래스 태그를 넣던지 빼던지 한다.
+        $(this).next("ul").toggleClass("hide");
+    });
+});
+
+
+
+
+</script>
 </head>
 <body>
 <c:if test="${menuVO.menuKind eq 'bookMenu' }">
@@ -134,15 +106,7 @@ input{
 			<a href="bookContent.do" class="brand" style="font-weight: bold; text-decoration: none; font-family: 'GmarketSansBold';">BookMenu</a>
 		</div>
 		<div style="width: 35%; display: inline-block; font-family: 'GmarketSansLight';" align="right">
-				
-				<div class="dd">
-			      <a href="centerIntroPage.do?introTab=centerIntro" class="db">센터안내</a>
-			      <div class="dd-content">
-			         <a href="centerIntroPage.do?introTab=centerIntro">센터소개</a>
-			         <a href="centerIntroPage.do?introTab=centerInfo">시설현황</a>
-			         <a href="centerIntroPage.do?introTab=centerLoc">위치안내</a>
-			      </div>
-			   </div>
+			
 							
 				
 			<span class="upperMenu">
@@ -156,36 +120,23 @@ input{
 			</span>
 				<!-- 드롭다운 -->				
 				  
-		 <div>
-    <ul>
-        <li class="menu">
-            <a>하이</a>
-            <ul class="hide">
-                <li>메뉴1-1</li>
-                <li>메뉴1-2</li>
-                <li>메뉴1-3</li>
-                <li>메뉴1-4</li>
-                <li>메뉴1-5</li>
-                <li>메뉴1-6</li>
-            </ul>
-        </li>
- 
-        <li class="menu">
-            <a>하이</a>
-            <ul class="hide">
-                <li>메뉴2-1</li>
-                <li>메뉴2-2</li>
-                <li>메뉴2-3</li>
-                <li>메뉴2-4</li>
-                <li>메뉴2-5</li>
-                <li>메뉴2-6</li>
-            </ul>
-        </li>
-    </ul>
-</div>
+		<div id="drop">
+		    <ul>
+		        <li class="menu">
+		            <a>하이1</a>
+		            <ul>
+		                <li><a href="search.do">메뉴1-1</a></li>
+		                <li><a href="search.do">메뉴1-1</a></li>
+		                <li><a href="search.do">메뉴1-1</a></li>
+		                <li><a href="search.do">메뉴1-1</a></li>
+		                <li><a href="search.do">메뉴1-1</a></li>
+		                <li><a href="search.do">메뉴1-1</a></li>
+		            </ul>
+		        </li>
+		    </ul>
+		</div>
 
 
-출처: https://stove99.tistory.com/103 [스토브 훌로구]
 		        
 		</div>
 <!--          <div style="width: 35%; display: inline-block;" align="right"> -->
