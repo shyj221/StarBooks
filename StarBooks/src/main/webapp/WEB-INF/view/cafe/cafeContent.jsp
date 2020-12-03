@@ -6,26 +6,44 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <style type="text/css">
 #gellato{
-	position: relative;
+	position: absolute;
 	left: 370px;
+	width: 240px;
 }
 #icecream{
 	position: relative;
-	left: 340px;
+	left: 420px;
+	width: 580px;
 }
-.menu{
-	display: block;
+#icecreamName{
+	position: relative;
+	left: 348px;
+	width: 400px;
+	bottom: 240px;
 }
-.menu > ul > li{
-	line-height: 0%;
+/* ul {
+    list-style:none;
+    margin:0;
+    padding:0;
 }
+
+li {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    border : 0;
+    float: left;
+} */
 #coffee{
 	position: relative;
 	right: 80px;
 }
 #bread{
 	position: relative;
-	right: 70px;
+	right: 80px;
+}
+#drink{
+	position: relative;
+	right: 80px;
 }
 </style>
 <title>Insert title here</title>
@@ -34,30 +52,22 @@
 <div class="row">
 	<div class="col-md-4">
 		<div style="height: 50px;"></div>
-		<img alt="" src="resources/images/cafe/gellato.png" width="150px;" id="gellato">
-		<img alt="" src="resources/images/cafe/icecream.jpg" width="600px;" id="icecream">
+		<img alt="" src="resources/images/cafe/gellato.png" id="gellato">
+		<img alt="" src="resources/images/cafe/icecream.png" id="icecream">
+		<img alt="" src="resources/images/cafe/icecreamName.png" id="icecreamName">
 	</div>
-	<div class="offset-md-3 col-md-5 menu">
-		<table>
-			<tr>
-				<td>
-					<img alt="" src="resources/images/cafe/coffee.png" width="200px;" id="coffee">
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<img src="resources/images/cafe/bread1.png" width="200px;" id="bread">
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<img src="resources/images/cafe/bread1.png" width="200px;" id="bread">
-				</td>
-			</tr>
-			<tr>
-				<td></td>
-			</tr>
-		</table>
+	<div class="offset-md-4 col-md-4 menu">
+		<ul>
+			<li>
+				<img alt="" src="resources/images/cafe/coffee.png" width="200px;" id="coffee">
+			</li>
+			<li>
+				<img alt="" src="resources/images/cafe/bread1.png" width="200px;" id="bread">
+			</li>
+			<li>
+				<img alt="" src="resources/images/cafe/drink.png" width="200px;" id="drink">
+			</li>
+		</ul>
 	</div>
 </div>
 </body>
