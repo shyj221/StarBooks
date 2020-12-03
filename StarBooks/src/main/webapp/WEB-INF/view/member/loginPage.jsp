@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="resources/css/loginInBook.css?ver=2"/>
+<link rel="stylesheet" type="text/css" href="resources/css/loginPage.css?ver=2"/>
 </head>
 <body>
 <div style="height: 80px;"></div>
@@ -42,8 +42,10 @@
 		<div style="height: 70px;"></div>
 		<div>
 			<input type="button" value="회원가입" class="joinBtn">
+			<input type="hidden" value="${menuVO.menuKind }" id="menuKind">
 		</div>
 	</div>
 </div>
+<script src="resources/js/loginPage.js?ver=1"></script>
 </body>
 </html>

@@ -12,13 +12,6 @@ public class BookController {
 	@Resource(name = "bookService")
 	BookService bookService;
 	
-	// 로그인/회원가입 - 북 페이지
-	@RequestMapping(value = "/loginInBook.do")
-	public String loginInBook(MenuVO menuVO) {
-		menuVO.setMenuKind("bookMenu");
-		return "book/loginInBook"; 
-	}
-	
 	// 열람실 안내 - 북 페이지
 	@RequestMapping(value = "/readingRoom.do")
 	public String readingRoom(MenuVO menuVO) {

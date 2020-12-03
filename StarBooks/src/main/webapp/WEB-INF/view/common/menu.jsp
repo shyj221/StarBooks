@@ -113,7 +113,8 @@ $(document).ready(function(){
 				<a href="readingRoom.do">열람실 안내</a> | 
 				<a href="intro.do">열린 공간</a> | 
 				<a href="search.do">자료 검색</a> |
-				<a href="loginInBook.do">로그인/회원가입</a> | 
+				<a href="loginPage.do?menuKind=bookMenu">로그인/회원가입</a> | 
+				<!-- <a href="loginInBook.do">로그인/회원가입</a> |  -->
 				<a href="myPage.do?menuKind=bookMenu">마이페이지</a>  |
 				<a href="cafeContent.do">카페 이동</a>  |
 				<a href="admin.do?menuKind=bookMenu">관리자</a> 
@@ -177,7 +178,8 @@ $(document).ready(function(){
 				<a href="menu.do">메뉴</a> | 
 				<a href="myPage.do?menuKind=cafeMenu">마이페이지</a> | 
 				<a href="wish.do">찜하기</a> |
-				<a href="loginInCafe.do">로그인/회원가입</a> | 
+				<a href="loginPage.do?menuKind=cafeMenu">로그인/회원가입</a> | 
+				<!-- <a href="loginInCafe.do">로그인/회원가입</a> |  -->
 				<a href="bookContent.do">도서관 이동</a> | 
 				<a href="admin.do?menuKind=cafeMenu">관리자</a>
 			</span>

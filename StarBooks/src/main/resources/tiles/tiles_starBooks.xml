@@ -39,6 +39,10 @@
 		<put-attribute name="body" value="/WEB-INF/view/manage/{1}.jsp" />
 	</definition>
 	
+	<definition name="member/*" extends="baseLayout1">
+		<put-attribute name="body" value="/WEB-INF/view/member/{1}.jsp" />
+	</definition>
+	
 	
 </tiles-definitions>
 
