@@ -8,6 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+<span>쨘!!커밋 테스트 입니다!!</span>
 	<div class="sub_tit_wrap">
 					<div class="sub_tit_inner">
 						<h2><img src="//image.istarbucks.co.kr/common/img/menu/menu_tit1.jpg" alt="음료"></h2>
