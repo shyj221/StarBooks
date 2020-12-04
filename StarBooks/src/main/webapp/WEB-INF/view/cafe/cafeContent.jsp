@@ -49,6 +49,7 @@ li {
 <title>Insert title here</title>
 </head>
 <body>
+<span>쨘!!커밋 테스트다요~!!</span>
 <div class="row">
 	<div class="col-md-4">
 		<div style="height: 50px;"></div>
