@@ -49,6 +49,7 @@ li {
 <title>Insert title here</title>
 </head>
 <body>
+<span>쨘!!커밋 테스트다요~!!</span>
 <div class="row">
 	<div class="col-md-4">
 		<div style="height: 50px;"></div>
@@ -59,13 +60,19 @@ li {
 	<div class="offset-md-4 col-md-4 menu">
 		<ul>
 			<li>
-				<img alt="" src="resources/images/cafe/coffee.png" width="200px;" id="coffee">
+				<a href="#">
+					<img alt="" src="resources/images/cafe/coffee.png" width="200px;" id="coffee">
+				</a>
 			</li>
 			<li>
-				<img alt="" src="resources/images/cafe/bread1.png" width="200px;" id="bread">
+				<a href="#">
+					<img alt="" src="resources/images/cafe/bread1.png" width="200px;" id="bread">
+				</a>
 			</li>
 			<li>
-				<img alt="" src="resources/images/cafe/drink.png" width="200px;" id="drink">
+				<a href="#">
+					<img alt="" src="resources/images/cafe/drink.png" width="200px;" id="drink">
+				</a>
 			</li>
 		</ul>
 	</div>
