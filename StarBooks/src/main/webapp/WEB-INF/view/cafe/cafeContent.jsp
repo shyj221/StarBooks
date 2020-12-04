@@ -59,13 +59,19 @@ li {
 	<div class="offset-md-4 col-md-4 menu">
 		<ul>
 			<li>
-				<img alt="" src="resources/images/cafe/coffee.png" width="200px;" id="coffee">
+				<a href="#">
+					<img alt="" src="resources/images/cafe/coffee.png" width="200px;" id="coffee">
+				</a>
 			</li>
 			<li>
-				<img alt="" src="resources/images/cafe/bread1.png" width="200px;" id="bread">
+				<a href="#">
+					<img alt="" src="resources/images/cafe/bread1.png" width="200px;" id="bread">
+				</a>
 			</li>
 			<li>
-				<img alt="" src="resources/images/cafe/drink.png" width="200px;" id="drink">
+				<a href="#">
+					<img alt="" src="resources/images/cafe/drink.png" width="200px;" id="drink">
+				</a>
 			</li>
 		</ul>
 	</div>
