@@ -74,7 +74,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td class="title">전화번호</td>
+							<td class="title">전화번호1</td>
 							<td>
 								<select id="">
 									<option>010</option>
@@ -91,7 +91,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td class="title">추가전화번호</td>
+							<td class="title">추가전화번호2</td>
 							<td>
 								<select id="">
 									<option>010</option>
